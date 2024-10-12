@@ -27,9 +27,9 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "vprofileactions23"
+    bucket = "vprofile-kop-bucket2311"
     key    = "terraform.tfstate"
-    region = "us-east-2"
+    region = "ap-southeast-2"
   }
 
   required_version = "~> 1.6.3"
